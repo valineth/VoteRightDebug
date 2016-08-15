@@ -1,0 +1,3 @@
+SkipKey= "skip"
+CuboidBlocksPerSecond= @integer:1000
+UpdateNMS= true

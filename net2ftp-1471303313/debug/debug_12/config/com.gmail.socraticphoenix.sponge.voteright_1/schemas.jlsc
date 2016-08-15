@@ -1,0 +1,582 @@
+rc= {
+    Type= "COLLECTION"
+    Selection= "SELECT_ONE"
+    Entries= [
+        "rc01",
+        "rc02",
+        "rc03"
+    ]
+}
+rc01= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "give %player% pixelmon:item.Rare_Candy 1"
+        }
+    ]
+}
+rc02= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "give %player% pixelmon:item.Rare_Candy 2"
+        }
+    ]
+}
+rc03= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "give %player% pixelmon:item.Rare_Candy 3"
+        }
+    ]
+}
+thank= {
+    Type= "ANNOUNCE"
+    Entries= [
+        {
+            Message= "&6Thank you for voting, &c%player%&6! Here is P150 and some rare candies!"
+            Type= "PLAYER"
+        }
+    ]
+}
+global= {
+    Type= "ANNOUNCE"
+    Entries= [
+        {
+            Message= "&c%player%&6 voted for the server and has received a reward!"
+            Type= "GLOBAL"
+        }
+    ]
+}
+votereward= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "givemoney %player% 150"
+        }
+    ]
+}
+pmilestone10= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "give %player% pixelmon:item.Exp._Share 1"
+        }
+    ]
+}
+pmilestone10a= {
+    Type= "ANNOUNCE"
+    Entries= [
+        {
+            Message= "&c%player%&6 has voted a total of &c10&6 times for the server and has been rewarded with an &cExp. Share&6!"
+            Type= "GLOBAL"
+        }
+    ]
+}
+pmilestone25= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "give %player% pixelmon:item.Macho_Brace 1"
+        }
+    ]
+}
+pmilestone25a= {
+    Type= "ANNOUNCE"
+    Entries= [
+        {
+            Message= "&c%player%&6 has voted a total of &c25&6 times for the server and has been rewarded with a &cMacho Brace&6!"
+            Type= "GLOBAL"
+        }
+    ]
+}
+pmilestone50_1= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "give %player% pixelmon:item.Power_Weight 1"
+        }
+    ]
+}
+pmilestone50_2= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "give %player% pixelmon:item.Power_Bracer 1"
+        }
+    ]
+}
+pmilestone50_3= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "give %player% pixelmon:item.Power_Belt 1"
+        }
+    ]
+}
+pmilestone50_4= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "give %player% pixelmon:item.Power_Lens 1"
+        }
+    ]
+}
+pmilestone50_5= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "give %player% pixelmon:item.Power_Band 1"
+        }
+    ]
+}
+pmilestone50_6= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "give %player% pixelmon:item.Power_Anklet 1"
+        }
+    ]
+}
+pmilestone50a= {
+    Type= "ANNOUNCE"
+    Entries= [
+        {
+            Message= "&c%player%&6 has voted a total of &c50&6 times for the server and has been rewarded with a &cfull set of power items&6!"
+            Type= "GLOBAL"
+        }
+    ]
+}
+pmilestone100= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "give %player% pixelmon:item.Lucky_Egg 1"
+        }
+    ]
+}
+pmilestone100a= {
+    Type= "ANNOUNCE"
+    Entries= [
+        {
+            Message= "&c%player%&6 has voted a total of &c100&6 times for the server and has been rewarded with a &cLucky Egg&6!"
+            Type= "GLOBAL"
+        }
+    ]
+}
+pmilestone150= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "give %player% pixelmon:item.Mineral_Badge 1 0 {display:{Name:\"Heatran Token\",Lore:[\"When this Pokemon is released,\",\"turn this into an administrator\",\"in order to claim your reward!\"]}}"
+        }
+    ]
+}
+pmilestone150a= {
+    Type= "ANNOUNCE"
+    Entries= [
+        {
+            Message= "&c%player%&6 has voted a total of &c150&6 times for the server and has been rewarded with a &cHeatran (Token)&6!"
+            Type= "GLOBAL"
+        }
+    ]
+}
+pmilestone200= {
+    Type= "COLLECTION"
+    Selection= "SELECT_ONE"
+    Entries= [
+        "pmilestone200_1",
+        "pmilestone200_2",
+        "pmilestone200_3"
+    ]
+}
+pmilestone200_1= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "pgive %player% Articuno ball:cherish"
+        }
+    ]
+}
+pmilestone200_2= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "pgive %player% Zapdos ball:cherish"
+        }
+    ]
+}
+pmilestone200_3= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            "pgive %player% Moltres ball:cherish"= ""
+        }
+    ]
+}
+pmilestone200a= {
+    Type= "ANNOUNCE"
+    Entries= [
+        {
+            Message= "&c%player%&6 has voted a total of &c200&6 times for the server and has been rewarded with &c1 of the Legendary Birds&6!"
+            Type= "GLOBAL"
+        }
+    ]
+}
+pmilestone300= {
+    Type= "COLLECTION"
+    Selection= "SELECT_ONE"
+    Entries= [
+        "pmilestone300_1",
+        "pmilestone300_2",
+        "pmilestone300_3"
+    ]
+}
+pmilestone300_1= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "pgive %player% Raikou ball:cherish"
+        }
+    ]
+}
+pmilestone300_2= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "pgive %player% Entei ball:cherish"
+        }
+    ]
+}
+pmilestone300_3= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "pgive %player% Suicune ball:cherish"
+        }
+    ]
+}
+pmilestone300a= {
+    Type= "ANNOUNCE"
+    Entries= [
+        {
+            Message= "&c%player%&6 has voted a total of &c300&6 times for the server and has been rewarded with &c1 of the Legendary Beasts&6!"
+            Type= "GLOBAL"
+        }
+    ]
+}
+pmilestone400= {
+    Type= "COLLECTION"
+    Selection= "SELECT_ONE"
+    Entries= [
+        "pmilestone400_1",
+        "pmilestone400_2",
+        "pmilestone400_3"
+    ]
+}
+pmilestone400_1= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "pgive %player% Regirock ball:cherish"
+        }
+    ]
+}
+pmilestone400_2= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "pgive %player% Regice ball:cherish"
+        }
+    ]
+}
+pmilestone400_3= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "pgive %player% Registeel ball:cherish"
+        }
+    ]
+}
+pmilestone400a= {
+    Type= "ANNOUNCE"
+    Entries= [
+        {
+            Message= "&c%player%&6 has voted a total of &c400&6 times for the server and has been rewarded with &c1 of the Legendary Titans&6!"
+            Type= "GLOBAL"
+        }
+    ]
+}
+pmilestone500= {
+    Type= "COLLECTION"
+    Selection= "SELECT_ONE"
+    Entries= [
+        "pmilestone500_1",
+        "pmilestone500_2",
+        "pmilestone500_3"
+    ]
+}
+pmilestone500_1= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "give %player% pixelmon:item.Mineral_Badge 1 0 {display:{Name:\"Uxie Token\",Lore:[\"When this Pokemon is released,\",\"turn this into an administrator\",\"in order to claim your reward!\"]}}"
+        }
+    ]
+}
+pmilestone500_2= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "give %player% pixelmon:item.Mineral_Badge 1 0 {display:{Name:\"Mesprit Token\",Lore:[\"When this Pokemon is released,\",\"turn this into an administrator\",\"in order to claim your reward!\"]}}"
+        }
+    ]
+}
+pmilestone500_3= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "give %player% pixelmon:item.Mineral_Badge 1 0 {display:{Name:\"Azelf Token\",Lore:[\"When this Pokemon is released,\",\"turn this into an administrator\",\"in order to claim your reward!\"]}}"
+        }
+    ]
+}
+pmilestone500a= {
+    Type= "ANNOUNCE"
+    Entries= [
+        {
+            Message= "&c%player%&6 has voted a total of &c500&6 times for the server and has been rewarded with &c1 (Token) of the Lake Guardians&6!"
+            Type= "GLOBAL"
+        }
+    ]
+}
+pmilestone600= {
+    Type= "COLLECTION"
+    Selection= "SELECT_ONE"
+    Entries= [
+        "pmilestone600_1",
+        "pmilestone600_2",
+        "pmilestone600_3"
+    ]
+}
+pmilestone600_1= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "give %player% pixelmon:item.Mineral_Badge 1 0 {display:{Name:\"Tornadus Token\",Lore:[\"When this Pokemon is released,\",\"turn this into an administrator\",\"in order to claim your reward!\"]}}"
+        }
+    ]
+}
+pmilestone600_2= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "give %player% pixelmon:item.Mineral_Badge 1 0 {display:{Name:\"Thundurus Token\",Lore:[\"When this Pokemon is released,\",\"turn this into an administrator\",\"in order to claim your reward!\"]}}"
+        }
+    ]
+}
+pmilestone600_3= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "give %player% pixelmon:item.Mineral_Badge 1 0 {display:{Name:\"Landorus Token\",Lore:[\"When this Pokemon is released,\",\"turn this into an administrator\",\"in order to claim your reward!\"]}}"
+        }
+    ]
+}
+pmilestone600a= {
+    Type= "ANNOUNCE"
+    Entries= [
+        {
+            Message= "&c%player%&6 has voted a total of &c600&6 times for the server and has been rewarded with &c1 (Token) of the Forces of Nature&6!"
+            Type= "GLOBAL"
+        }
+    ]
+}
+pmilestone700= {
+    Type= "COLLECTION"
+    Selection= "SELECT_ONE"
+    Entries= [
+        "pmilestone700_1",
+        "pmilestone700_2",
+        "pmilestone700_3"
+    ]
+}
+pmilestone700_1= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "give %player% pixelmon:item.Mineral_Badge 1 0 {display:{Name:\"Coballion Token\",Lore:[\"When this Pokemon is released,\",\"turn this into an administrator\",\"in order to claim your reward!\"]}}"
+        }
+    ]
+}
+pmilestone700_2= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "give %player% pixelmon:item.Mineral_Badge 1 0 {display:{Name:\"Terrakion Token\",Lore:[\"When this Pokemon is released,\",\"turn this into an administrator\",\"in order to claim your reward!\"]}}"
+        }
+    ]
+}
+pmilestone700_3= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "give %player% pixelmon:item.Mineral_Badge 1 0 {display:{Name:\"Virizion Token\",Lore:[\"When this Pokemon is released,\",\"turn this into an administrator\",\"in order to claim your reward!\"]}}"
+        }
+    ]
+}
+pmilestone700a= {
+    Type= "ANNOUNCE"
+    Entries= [
+        {
+            Message= "&c%player%&6 has voted a total of &c700&6 times for the server and has been rewarded with &c1 (Token) of the Swords of Justice&6!"
+            Type= "GLOBAL"
+        }
+    ]
+}
+pmilestone800= {
+    Type= "COMMAND"
+    Entries= [
+        "pgive %player% Cellibi ball:cherish"
+    ]
+}
+pmilestone800a= {
+    Type= "ANNOUNCE"
+    Entries= [
+        {
+            Message= "&c%player%&6 has voted a total of &c800&6 times for the server and has been rewarded with a &cCellibi&6!"
+            Type= "GLOBAL"
+        }
+    ]
+}
+pmilestone900= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "give %player% pixelmon:item.Mineral_Badge 1 0 {display:{Name:\"Jirachi Token\",Lore:[\"When this Pokemon is released,\",\"turn this into an administrator\",\"in order to claim your reward!\"]}}"
+        }
+    ]
+}
+pmilestone900a= {
+    Type= "ANNOUNCE"
+    Entries= [
+        {
+            Message= "&c%player%&6 has voted a total of &c900&6 times for the server and has been rewarded with a &cJirachi (Token)&6!"
+            Type= "GLOBAL"
+        }
+    ]
+}
+pmilestone1000= {
+    Type= "COMMAND"
+    Entries= [
+        "pgive %player% Regigigas ball:cherish"
+    ]
+}
+pmilestone1000a= {
+    Type= "ANNOUNCE"
+    Entries= [
+        {
+            Message= "&c%player%&6 has voted a total of &c1000&6 times for the server and has been rewarded with a &cRegigigas&6!"
+            Type= "GLOBAL"
+        }
+    ]
+}
+pmilestone1200= {
+    Type= "COLLECTION"
+    Selection= "SELECT_ONE"
+    Entries= [
+        "pmilestone1200_1",
+        "pmilestone1200_2"
+    ]
+}
+pmilestone1200_1= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "give %player% pixelmon:item.Mineral_Badge 1 0 {display:{Name:\"Latias Token\",Lore:[\"When this Pokemon is released,\",\"turn this into an administrator\",\"in order to claim your reward!\"]}}"
+        }
+    ]
+}
+pmilestone1200_2= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "give %player% pixelmon:item.Mineral_Badge 1 0 {display:{Name:\"Latios Token\",Lore:[\"When this Pokemon is released,\",\"turn this into an administrator\",\"in order to claim your reward!\"]}}"
+        }
+    ]
+}
+pmilestone1200a= {
+    Type= "ANNOUNCE"
+    Entries= [
+        {
+            Message= "&c%player%&6 has voted a total of &c1200&6 times for the server and has been rewarded with &c1 (Token) of the Eon Duo&6!"
+            Type= "GLOBAL"
+        }
+    ]
+}
+pmilestone1400= {
+    Type= "COLLECTION"
+    Selection= "SELECT_ONE"
+    Entries= [
+        "pmilestone1200_1",
+        "pmilestone1200_2"
+    ]
+}
+pmilestone1400_1= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "pgive %player% Lugia ball:cherish"
+        }
+    ]
+}
+pmilestone1400_2= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "pgive %player% Ho-oh ball:cherish"
+        }
+    ]
+}
+pmilestone1400a= {
+    Type= "ANNOUNCE"
+    Entries= [
+        {
+            Message= "&c%player%&6 has voted a total of &c1400&6 times for the server and has been rewarded with &c1 of the Tower Duo&6!"
+            Type= "GLOBAL"
+        }
+    ]
+}
+pmilestone1600= {
+    Type= "COLLECTION"
+    Selection= "SELECT_ONE"
+    Entries= [
+        "pmilestone1200_1",
+        "pmilestone1200_2"
+    ]
+}
+pmilestone1600_1= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "pgive %player% Kyogre ball:cherish"
+        }
+    ]
+}
+pmilestone1600_2= {
+    Type= "COMMAND"
+    Entries= [
+        {
+            Command= "pgive %player% Groudon ball:cherish"
+        }
+    ]
+}
+pmilestone1600a= {
+    Type= "ANNOUNCE"
+    Entries= [
+        {
+            Message= "&c%player%&6 has voted a total of &c1200&6 times for the server and has been rewarded with &c1 of the Weather Duo&6!"
+            Type= "GLOBAL"
+        }
+    ]
+}

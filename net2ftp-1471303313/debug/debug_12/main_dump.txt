@@ -1,0 +1,120 @@
+System Information
+    JVM: Java(TM) SE Runtime Environment
+    JVM Vendor: Oracle Corporation
+    JVM Version: 25.92-b14
+    Java Version: 1.8.0_92
+    Operating System: Linux
+    Minecraft Version: 1.8.9
+    Minecraft Platform: SERVER
+    SpongeAPI Version: 4.2.0-SNAPSHOT-4095716
+    Sponge Implementation: SpongeForge
+    SpongeForge Version: 1.8.9-1890-4.2.0-BETA-1528
+    StarAPI Version: 1.7.7
+--------------------
+
+Plugins
+    Sponge Plugins
+        EnjinMinecraftPlugin
+        GriefPrevention
+        Nucleus
+        NuVotifier
+        PermissionsEx
+        Pixel Auction
+        PixelmonEconomyBridge
+        StarAPI
+        Total Economy
+        VoteRight
+    Star Plugins
+        StarAPI
+        VoteRight
+    Full List
+        Minecraft
+            Identifier: Minecraft
+            Authors: []
+            Version: 1.8.9
+        Minecraft Coder Pack
+            Identifier: mcp
+            Authors: []
+            Version: 9.19
+        Forge Mod Loader
+            Identifier: FML
+            Authors: [cpw, LexManos, Player]
+            Version: 8.0.99.99
+        Minecraft Forge
+            Identifier: Forge
+            Authors: [LexManos, cpw, fry]
+            Version: 11.15.1.1890
+        SpongeForge
+            Identifier: sponge
+            Authors: []
+            Version: 1.8.9-1890-4.2.0-BETA-1528
+        EnjinMinecraftPlugin
+            Identifier: com.enjin.sponge
+            Authors: []
+            Version: 3.0.1-sponge
+        Pixelmon
+            Identifier: pixelmon
+            Authors: [Pixelmon Development Team]
+            Version: 4.3.0-beta3
+        IVsEVs
+            Identifier: ivsevs
+            Authors: []
+            Version: 4.1.0
+        Gameshark (Pixelmon)
+            Identifier: gameshark
+            Authors: [Waterdude]
+            Version: 4.1.1
+        GriefPrevention
+            Identifier: griefprevention
+            Authors: []
+            Version: 1.0
+        In-game NBTEdit
+            Identifier: NBTEdit
+            Authors: [Davidee]
+            Version: 1.8.9-1.0
+        Nucleus
+            Identifier: nucleus
+            Authors: []
+            Version: 0.6.0
+        NuVotifier
+            Identifier: nuvotifier
+            Authors: []
+            Version: 2.3.2.2
+        PermissionsEx
+            Identifier: ninja.leaping.permissionsex
+            Authors: []
+            Version: 2.0-SNAPSHOT
+        Pixel Auction
+            Identifier: pixelauction
+            Authors: []
+            Version: 1.0.3
+        Pixel Extras
+            Identifier: pixelextras
+            Authors: [Rhonim]
+            Version: 2.1.4
+        PixelmonEconomyBridge
+            Identifier: pixelmoneconomybridge
+            Authors: []
+            Version: 1.1
+        StarAPI
+            Identifier: com.gmail.socraticphoenix.sponge.star
+            Authors: [Socratic_Phoenix]
+            Version: 1.7.7
+        Total Economy
+            Identifier: totaleconomy
+            Authors: []
+            Version: 1.4.1
+        VoteRight
+            Identifier: com.gmail.socraticphoenix.sponge.voteright
+            Authors: [Socratic_Phoenix]
+            Version: 1.1.3
+        Wondertrade
+            Identifier: wondertrade
+            Authors: []
+            Version: 4.3.1
+        WorldEdit
+            Identifier: worldedit
+            Authors: []
+            Version: 6.1.1
+--------------------
+

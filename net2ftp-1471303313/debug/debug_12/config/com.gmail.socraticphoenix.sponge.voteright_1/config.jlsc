@@ -1,0 +1,69 @@
+VoteMessage= [
+    "&6Vote at:",
+    [
+        "&bhttp://pixelmonservers.com/server/CtiJ7nd2/vote"
+    ],
+    [
+        "&bhttp://minecraftservers.org/vote/357769"
+    ],
+    [
+        "&bhttp://minecraft-mp.com/server/124346/vote/"
+    ],
+    [
+        "&bhttp://minecraft-server-list.com/server/353023/vote/"
+    ]
+]
+Voting= {
+    Schemas= [
+        "votereward",
+        "rc",
+        "global"
+    ]
+}
+OfflineVoting= {
+    Schemas= [
+    ]
+    Enabled= false
+}
+Counting= {
+    Triggers= [
+        {
+            Type= "PLAYER_ONLINE"
+            Count= @long:10
+            Schemas= [
+                "pmilestone10",
+                "pmilestone10a"
+            ]
+        },
+        {
+            Type= "PLAYER_ONLINE"
+            Count= @long:25
+            Schemas= [
+                "pmilestone25",
+                "pmilestone25a"
+            ]
+        },
+        {
+            Type= "PLAYER_ONLINE"
+            Count= @long:50
+            Schemas= [
+                "pmilestone50_1",
+                "pmilestone50_2",
+                "pmilestone50_3",
+                "pmilestone50_4",
+                "pmilestone50_5",
+                "pmilestone50_6",
+                "pmilestone50a"
+            ]
+        },
+        {
+            Type= "PLAYER_ONLINE"
+            Count= @long:100
+            Schemas= [
+                "pmilestone100",
+                "pmilestone100a"
+            ]
+        }
+    ]
+    Enabled= false
+}

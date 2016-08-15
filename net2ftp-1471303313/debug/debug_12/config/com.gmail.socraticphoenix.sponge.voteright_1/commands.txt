@@ -1,0 +1,233 @@
+- votetop:
+    - Aliases:
+        - votetop
+    - Permission: voteright.votetop
+    - Description: Displays the top voters, as well as the total server vote count.
+    - Help: Lists top votes.
+    - Usage: /votetop <?amount> <?comparison> 
+- vote:
+    - Aliases:
+        - vote
+    - Permission: voteright.vote
+    - Description: Displays the predefined vote message from the config.
+    - Help: Displays vote message.
+    - Usage: /vote 
+- voteright:
+    - Aliases:
+        - voteright
+        - vr
+    - Permission: none
+    - Description: Main VoteRight command
+    - Help: Main VoteRight command
+    - Usage: /voteright <sub_command> <?args...> 
+    - Sub Commands: 
+        - reload:
+            - Aliases:
+                - reload
+                - r
+            - Permission: voteright.reload
+            - Description: Reloads VoteRight configurations from disk.
+            - Help: Reloads VoteRight
+            - Usage: /voteright reload 
+        - edit:
+            - Aliases:
+                - edit
+            - Permission: none
+            - Description: Allows adding and deleting of entries from schemas.
+            - Help: Schema edit command
+            - Usage: /voteright edit <sub_command> <?args...> 
+            - Sub Commands: 
+                - item:
+                    - Aliases:
+                        - item
+                    - Permission: none
+                    - Description: The main command for editing schemas of the type "ITEM"
+                    - Help: Schema edit command
+                    - Usage: /voteright edit item <action> <?args...> 
+                    - Sub Commands: 
+                        - add:
+                            - Aliases:
+                                - add
+                            - Permission: voteright.schema.edit.item
+                            - Description: Adds an entry to the specified schema of type "ITEM"
+                            - Help: Adds an entry to a schema
+                            - Usage: /voteright edit item add <schema_name> <type> <?amount> <?meta> <?name> <?lore> <?enchantments> <?save> 
+                        - remove:
+                            - Aliases:
+                                - remove
+                            - Permission: voteright.schema.edit.item
+                            - Description: Removes an entry from the specified schema of type "ITEM"
+                            - Help: Removes an entry to a schema
+                            - Usage: /voteright edit item remove <schema_name> <index> <?save> 
+                - money:
+                    - Aliases:
+                        - money
+                    - Permission: none
+                    - Description: The main command for editing schemas of the type "MONEY"
+                    - Help: Schema edit command
+                    - Usage: /voteright edit money <action> <?args...> 
+                    - Sub Commands: 
+                        - add:
+                            - Aliases:
+                                - add
+                            - Permission: voteright.schema.edit.money
+                            - Description: Adds an entry to the specified schema of type "MONEY"
+                            - Help: Adds an entry to a schema
+                            - Usage: /voteright edit money add <schema_name> <amount> <?type> <?currency> <?save> 
+                        - remove:
+                            - Aliases:
+                                - remove
+                            - Permission: voteright.schema.edit.money
+                            - Description: Removes an entry from the specified schema of type "MONEY"
+                            - Help: Removes an entry to a schema
+                            - Usage: /voteright edit money remove <schema_name> <index> <?save> 
+                - collection:
+                    - Aliases:
+                        - collection
+                    - Permission: none
+                    - Description: The main command for editing schemas of the type "COLLECTION"
+                    - Help: Schema edit command
+                    - Usage: /voteright edit collection <action> <?args...> 
+                    - Sub Commands: 
+                        - add:
+                            - Aliases:
+                                - add
+                            - Permission: voteright.schema.edit.collection
+                            - Description: Adds an entry to the specified schema of type "COLLECTION"
+                            - Help: Adds an entry to a schema
+                            - Usage: /voteright edit collection add <schema_name> <schema> <?chance> <?save> 
+                        - remove:
+                            - Aliases:
+                                - remove
+                            - Permission: voteright.schema.edit.collection
+                            - Description: Removes an entry from the specified schema of type "COLLECTION"
+                            - Help: Removes an entry to a schema
+                            - Usage: /voteright edit collection remove <schema_name> <index> <?save> 
+                - command:
+                    - Aliases:
+                        - command
+                    - Permission: none
+                    - Description: The main command for editing schemas of the type "COMMAND"
+                    - Help: Schema edit command
+                    - Usage: /voteright edit command <action> <?args...> 
+                    - Sub Commands: 
+                        - add:
+                            - Aliases:
+                                - add
+                            - Permission: voteright.schema.edit.command
+                            - Description: Adds an entry to the specified schema of type "COMMAND"
+                            - Help: Adds an entry to a schema
+                            - Usage: /voteright edit command add <schema_name> <command> <?type> <?save> 
+                        - remove:
+                            - Aliases:
+                                - remove
+                            - Permission: voteright.schema.edit.command
+                            - Description: Removes an entry from the specified schema of type "COMMAND"
+                            - Help: Removes an entry to a schema
+                            - Usage: /voteright edit command remove <schema_name> <index> <?save> 
+                - announce:
+                    - Aliases:
+                        - announce
+                    - Permission: none
+                    - Description: The main command for editing schemas of the type "ANNOUNCE"
+                    - Help: Schema edit command
+                    - Usage: /voteright edit announce <action> <?args...> 
+                    - Sub Commands: 
+                        - add:
+                            - Aliases:
+                                - add
+                            - Permission: voteright.schema.edit.announce
+                            - Description: Adds an entry to the specified schema of type "ANNOUNCE"
+                            - Help: Adds an entry to a schema
+                            - Usage: /voteright edit announce add <schema_name> <message> <?type> <?save> 
+                        - remove:
+                            - Aliases:
+                                - remove
+                            - Permission: voteright.schema.edit.announce
+                            - Description: Removes an entry from the specified schema of type "ANNOUNCE"
+                            - Help: Removes an entry to a schema
+                            - Usage: /voteright edit announce remove <schema_name> <index> <?save> 
+        - save:
+            - Aliases:
+                - save
+                - s
+            - Permission: voteright.save
+            - Description: Saves all VoteRight files to disk.
+            - Help: Saves VoteRight files.
+            - Usage: /voteright save 
+        - count:
+            - Aliases:
+                - count
+            - Permission: none
+            - Description: Allows viewing and setting of player VoteCounts, and viewing of the server VoteCount.
+            - Help: Main VoteCount command
+            - Usage: /voteright count <action> <?args...> 
+            - Sub Commands: 
+                - view:
+                    - Aliases:
+                        - view
+                    - Permission: voteright.count.view
+                    - Description: Displays a VoteCount given the specified owner. Use "$server" to view the total count.
+                    - Help: Displays a VoteCount.
+                    - Usage: /voteright count view <count_owner> 
+                - set:
+                    - Aliases:
+                        - set
+                    - Permission: voteright.count.set
+                    - Description: Sets a VoteCount given the specified owner. You cannot set the server VoteCount, as it is calculated by adding up all the other VoteCounts.
+                    - Help: Sets a VoteCount.
+                    - Usage: /voteright count set <count_owner> <?online> <?offline> <?save> 
+        - create:
+            - Aliases:
+                - create
+                - cre
+            - Permission: voteright.schemas.create
+            - Description: Creates a new, empty schema of the given type and name.
+            - Help: Creates a new schema.
+            - Usage: /voteright create <schema_name> <schema_type> <?save> 
+        - trigger:
+            - Aliases:
+                - trigger
+            - Permission: none
+            - Description: Allows adding and deleting of VoteTriggers from the config.
+            - Help: Main VoteTrigger command
+            - Usage: /voteright trigger <sub_command> <?args...> 
+            - Sub Commands: 
+                - add:
+                    - Aliases:
+                        - add
+                    - Permission: voteright.trigger.add
+                    - Description: Adds a VoteTrigger using the given type, count, and schema(s)
+                    - Help: Adds a trigger
+                    - Usage: /voteright trigger add <type> <count> <schemas> <?save> 
+                - delete:
+                    - Aliases:
+                        - delete
+                    - Permission: voteright.trigger.add
+                    - Description: Deletes a VoteTrigger at the specified index.
+                    - Help: Deletes a VoteTrigger.
+                    - Usage: /voteright trigger delete <index> <?save> 
+        - simulate:
+            - Aliases:
+                - simulate
+                - sim
+            - Permission: voteright.simulate
+            - Description: Creates a Votifier vote and invokes the VoteEvent. In theory, any plugins listening to the right event will be triggered.
+            - Help: Simulates a vote.
+            - Usage: /voteright simulate <?player> <?times> 
+        - delete:
+            - Aliases:
+                - delete
+                - del
+            - Permission: voteright.schemas.delete
+            - Description: Deletes a schema.
+            - Help: Deletes a schema.
+            - Usage: /voteright delete <schema_name> <?save> 
+        - migrate:
+            - Aliases:
+                - migrate
+                - m
+            - Permission: voteright.migrate
+            - Description: Migrates the previous VoteRight version to the current one.
+            - Help: Migrates VoteRight.
+            - Usage: /voteright migrate 

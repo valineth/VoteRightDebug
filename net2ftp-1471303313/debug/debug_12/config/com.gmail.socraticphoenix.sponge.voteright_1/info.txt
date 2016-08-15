@@ -1,0 +1,13 @@
+== Information File For VoteRight ==
+Name= VoteRight
+Id= com.gmail.socraticphoenix.sponge.voteright
+Authors= Socratic_Phoenix
+
+Description:
+A votifier listener for Sponge
+
+Config:
+The config file uses the JLSC format, or JSON-Like Structured Configuration. The config file is human readable, and generally easy to set values in.
+
+Data:
+The data file also uses the JLSC format, however it is its compressed form. Compressed JLSC is not human readable, and is meant for internal storage only.

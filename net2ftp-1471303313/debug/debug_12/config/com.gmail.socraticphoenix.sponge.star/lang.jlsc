@@ -1,0 +1,10 @@
+Colors= {
+    command-help-literal= "GOLD"
+    command-help-brackets= "RED"
+    command-help-arg= "GREEN"
+    command-help-optional= "GRAY"
+}
+Messages= {
+}
+Templates= {
+}
